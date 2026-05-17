@@ -5,7 +5,6 @@
       "identifier": "ultimate_sword:nova",
       "is_spawnable": false,
       "is_summonable": true,
-      "is_experimental": false,
       "animations": {
         "nova_kill": "controller.animation.ultimate_sword.nova_kill"
       },
@@ -23,8 +22,8 @@
         "is_pushable_by_piston": false
       },
       "minecraft:collision_box": {
-        "width": 0.001,
-        "height": 0.001
+        "width": 0.1,
+        "height": 0.1
       },
       "minecraft:fire_immune": true,
       "minecraft:type_family": {
