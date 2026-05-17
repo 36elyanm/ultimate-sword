@@ -3,15 +3,15 @@
   "header": {
     "name": "Ultimate Sword RP",
     "description": "Resource pack for the Ultimate Sword addon",
-    "uuid": "d4e5f6a7-b8c9-0123-defa-234567890123",
-    "version": [1, 0, 0],
+    "uuid": "38b2d859-235f-40f2-bfc5-0d07cf5c822b",
+    "version": [1, 0, 1],
     "min_engine_version": [1, 21, 0]
   },
   "modules": [
     {
       "type": "resources",
-      "uuid": "e5f6a7b8-c9d0-1234-efab-345678901234",
-      "version": [1, 0, 0]
+      "uuid": "8a76b0ec-8e60-4998-8498-52f77e5fdd0e",
+      "version": [1, 0, 1]
     }
   ]
 }
