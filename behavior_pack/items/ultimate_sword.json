@@ -29,19 +29,6 @@
         "textures": {
           "default": "ultimate_sword"
         }
-      },
-      "minecraft:on_use": {
-        "on_use": {
-          "event": "ultimate_sword:trigger_nova",
-          "target": "self"
-        }
-      }
-    },
-    "events": {
-      "ultimate_sword:trigger_nova": {
-        "run_command": {
-          "command": ["summon ultimate_sword:nova ~ ~1 ~"]
-        }
       }
     }
   }
