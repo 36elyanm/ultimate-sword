@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ultimate_sword:ultimate_sword_recipe"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "N",
+      "I",
+      "S"
+    ],
+    "key": {
+      "N": { "item": "minecraft:nether_star" },
+      "I": { "item": "minecraft:netherite_ingot" },
+      "S": { "item": "minecraft:stick" }
+    },
+    "result": {
+      "item": "ultimate_sword:ultimate_sword",
+      "count": 1
+    }
+  }
+}

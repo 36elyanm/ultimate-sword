@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "ultimate_sword:ultimate_sword",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "ultimate_sword"
+        }
+      }
+    }
+  }
+}
