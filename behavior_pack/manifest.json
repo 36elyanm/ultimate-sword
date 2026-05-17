@@ -3,21 +3,21 @@
   "header": {
     "name": "Ultimate Sword BP",
     "description": "One-shot sword — kills every entity in a 10-block radius on use (not the wielder)",
-    "uuid": "cc09250e-5600-4579-a942-652cfc86de5b",
-    "version": [1, 0, 1],
+    "uuid": "8b67fe2c-481a-4ee9-9fe8-84ed19350118",
+    "version": [1, 0, 2],
     "min_engine_version": [1, 21, 0]
   },
   "modules": [
     {
       "type": "data",
-      "uuid": "2abfecef-161f-4eb2-82f3-8c9a3ad409ee",
-      "version": [1, 0, 1]
+      "uuid": "1f0be1f6-4b0e-4c90-8ae7-b36100fe143b",
+      "version": [1, 0, 2]
     }
   ],
   "dependencies": [
     {
-      "uuid": "38b2d859-235f-40f2-bfc5-0d07cf5c822b",
-      "version": [1, 0, 1]
+      "uuid": "c38ee30e-d3e0-48a6-be2e-c47b7d921156",
+      "version": [1, 0, 2]
     }
   ]
 }
