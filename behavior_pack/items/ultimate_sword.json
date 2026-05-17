@@ -29,6 +29,24 @@
         "textures": {
           "default": "ultimate_sword"
         }
+      },
+      "minecraft:use_duration": 0.05,
+      "minecraft:cooldown": {
+        "category": "ultimate_sword",
+        "duration": 2.0
+      },
+      "minecraft:on_use": {
+        "on_use": {
+          "event": "ultimate_sword:blast",
+          "target": "self"
+        }
+      }
+    },
+    "events": {
+      "ultimate_sword:blast": {
+        "run_command": {
+          "command": ["summon ultimate_sword:nova ~ ~1 ~"]
+        }
       }
     }
   }
