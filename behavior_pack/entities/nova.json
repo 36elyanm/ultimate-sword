@@ -1,0 +1,47 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "ultimate_sword:nova",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "animations": {
+        "nova_kill": "controller.animation.ultimate_sword.nova_kill"
+      },
+      "scripts": {
+        "animate": ["nova_kill"]
+      }
+    },
+    "components": {
+      "minecraft:physics": {
+        "has_gravity": false,
+        "has_collision": false
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:collision_box": {
+        "width": 0.001,
+        "height": 0.001
+      },
+      "minecraft:fire_immune": true,
+      "minecraft:type_family": {
+        "family": ["ultimate_sword_nova", "inanimate"]
+      },
+      "minecraft:timer": {
+        "looping": false,
+        "time": 0.5,
+        "time_down_event": {
+          "event": "ultimate_sword:despawn"
+        }
+      }
+    },
+    "events": {
+      "ultimate_sword:despawn": {
+        "despawn": {}
+      }
+    }
+  }
+}

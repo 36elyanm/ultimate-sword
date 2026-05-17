@@ -1,0 +1,15 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.ultimate_sword.nova_kill": {
+      "initial_state": "aoe_kill",
+      "states": {
+        "aoe_kill": {
+          "on_entry": [
+            "/execute as @e[family=!ultimate_sword_nova,family=!player,r=10,c=1000] at @s run kill @s"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -20,24 +20,25 @@
         "value": 15,
         "slot": "sword"
       },
-      "minecraft:repairable": {
-        "repair_items": [
-          {
-            "items": ["minecraft:nether_star"],
-            "repair_amount": 1000
-          }
-        ]
-      },
-      "minecraft:display_name": {
-        "value": "tile.ultimate_sword:ultimate_sword.name"
+      "minecraft:tags": {
+        "tags": ["minecraft:is_sword"]
       },
       "minecraft:icon": {
         "textures": {
           "default": "ultimate_sword"
         }
       },
-      "minecraft:tags": {
-        "tags": ["minecraft:is_sword"]
+      "minecraft:on_use": {
+        "on_use": {
+          "event": "ultimate_sword:trigger_nova"
+        }
+      }
+    },
+    "events": {
+      "ultimate_sword:trigger_nova": {
+        "run_command": {
+          "command": ["summon ultimate_sword:nova ~ ~1 ~"]
+        }
       }
     }
   }
