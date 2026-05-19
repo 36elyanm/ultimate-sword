@@ -2,7 +2,7 @@
   "format_version": 2,
   "header": {
     "name": "Ultimate Sword BP",
-    "description": "One-shot sword — kills every entity in a 10-block radius on use (not the wielder)",
+    "description": "Sword that deals 1000 attack damage",
     "uuid": "8b67fe2c-481a-4ee9-9fe8-84ed19350118",
     "version": [1, 0, 2],
     "min_engine_version": [1, 21, 0]
