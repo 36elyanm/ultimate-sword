@@ -9,7 +9,7 @@
       "minecraft:max_stack_size": 1,
       "minecraft:hand_equipped": true,
       "minecraft:damage": {
-        "value": 1000
+        "value": 4308
       },
       "minecraft:durability": {
         "damage_chance": {
